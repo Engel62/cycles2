@@ -56,11 +56,13 @@ public class Main {
         }
         ///"Задание 2, домашнее задание 2, задание 4 "
         System.out.println("Задание 4, домашнее задание 2, задание 4 ");
+        int day  = 0;
         int friday = 4;
-        for (int day = friday; day < 30; day ++) {
-            if (day % 7 == 0){
-            System.out.println(day);
-    }
+        while (day < 31){
+            day ++;
+            if (day % 7 == friday)
+                System.out.println("Сегодня пятница," + day +" -е число. Необходимо подготовить отчет.");
+        }
+
    }
-}
 }
