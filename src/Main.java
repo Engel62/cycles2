@@ -72,6 +72,14 @@ public class Main {
                 System.out.println(year);
             }
         }
+        ///"Задание 6, домашнее задание 3, задание 2 "
+        System.out.println("Задание 6, домашнее задание 3, задание 2 ");
+        int g = 1;
+        int f = 2;
+        for (; g <= 10; g++){
+           int k = f * g;
+            System.out.println(f + "*" + g + "=" + k);
+        }
 
         }
    }
