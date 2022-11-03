@@ -61,8 +61,17 @@ public class Main {
         while (day < 31){
             day ++;
             if (day % 7 == friday)
-                System.out.println("Сегодня пятница," + day +" -е число. Необходимо подготовить отчет.");
+                System.out.println("Сегодня пятница, " + day +"-е число. Необходимо подготовить отчет.");
+        }
+        ///"Задание 6, домашнее задание 3, задание 1 "
+        System.out.println("Задание 6, домашнее задание 3, задание 1 ");
+        int year = 0;
+        int currentYear = 2022;
+        for (;year <= currentYear + 100; year += 79){
+            if (year >= currentYear - 200 && year <= currentYear + 100){
+                System.out.println(year);
+            }
         }
 
+        }
    }
-}
